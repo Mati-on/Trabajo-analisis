@@ -1,0 +1,124 @@
+{
+  "modelo": "OLS",
+  "objetivo": "log1p(MONTO APLICADO)",
+  "predictores_base": [
+    "CANAL",
+    "LOCAL",
+    "UNIDADES",
+    "PORCENTAJE DESCUENTO"
+  ],
+  "nota": "UNIDADES se excluye automaticamente si no presenta variacion. CANAL se codifica con dummies.",
+  "filas_usadas": 200000,
+  "train": 140000,
+  "test": 60000,
+  "r2_train": 0.2470335516300246,
+  "r2_ajustado_train": 0.24700665881860517,
+  "metricas_test_escala_original": {
+    "MAE": 4905.579220833412,
+    "RMSE": 12827.849165331098,
+    "R2": 0.23001163944292535
+  },
+  "coeficientes": [
+    {
+      "variable": "const",
+      "coeficiente": 7.631522522294778,
+      "p_value": 0.0,
+      "intervalo_95": [
+        7.59946902592648,
+        7.6635760186630755
+      ]
+    },
+    {
+      "variable": "LOCAL",
+      "coeficiente": -7.231850108052996e-06,
+      "p_value": 4.664477353501559e-22,
+      "intervalo_95": [
+        -8.69962351924276e-06,
+        -5.764076696863232e-06
+      ]
+    },
+    {
+      "variable": "PORCENTAJE DESCUENTO",
+      "coeficiente": 3.3565929968119295,
+      "p_value": 0.0,
+      "intervalo_95": [
+        3.3257643697663313,
+        3.3874216238575277
+      ]
+    },
+    {
+      "variable": "CANAL_CCT",
+      "coeficiente": -0.05993444664436886,
+      "p_value": 0.7649008184694001,
+      "intervalo_95": [
+        -0.45274364040552023,
+        0.3328747471167825
+      ]
+    },
+    {
+      "variable": "CANAL_POS",
+      "coeficiente": -0.027563818451266042,
+      "p_value": 0.06464871771685922,
+      "intervalo_95": [
+        -0.05680272702081565,
+        0.001675090118283571
+      ]
+    },
+    {
+      "variable": "CANAL_WEB",
+      "coeficiente": 0.04423302621135028,
+      "p_value": 0.0155908520637191,
+      "intervalo_95": [
+        0.008384351120997918,
+        0.08008170130170264
+      ]
+    }
+  ],
+  "vif": [
+    {
+      "variable": "LOCAL",
+      "vif": 1.3012617276168275
+    },
+    {
+      "variable": "PORCENTAJE DESCUENTO",
+      "vif": 11.873653077993804
+    },
+    {
+      "variable": "CANAL_CCT",
+      "vif": 1.0009942108811636
+    },
+    {
+      "variable": "CANAL_POS",
+      "vif": 11.610720239927058
+    },
+    {
+      "variable": "CANAL_WEB",
+      "vif": 1.3242387977147072
+    }
+  ],
+  "diagnosticos_residuos": {
+    "normalidad_jarque_bera": {
+      "estadistico": 22272.124489552552,
+      "p_value": 0.0
+    },
+    "normalidad_shapiro_muestra": {
+      "estadistico": 0.9781382429498547,
+      "p_value": 4.600643362398074e-27
+    },
+    "homocedasticidad_breusch_pagan": {
+      "lm_stat": 89.33391098876254,
+      "lm_p_value": 9.273253463459305e-18,
+      "f_stat": 17.877424051435252,
+      "f_p_value": 9.158976271431795e-18
+    }
+  },
+  "extrapolabilidad": {
+    "conclusion": "Limitada fuera de los rangos observados.",
+    "limitaciones": [
+      "No extrapola de forma confiable a canales o locales no observados.",
+      "UNIDADES no aporta informacion si permanece constante.",
+      "Faltan variables externas como stock, campanas, feriados y promociones.",
+      "La muestra usada controla tiempo de ejecucion; puede subrepresentar casos raros."
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "variable":"UNIDADES",
+    "n":3239993,
+    "media":1.0,
+    "mediana":1.0,
+    "desviacion":0.0,
+    "varianza":0.0,
+    "minimo":1.0,
+    "maximo":1.0,
+    "asimetria":0.0,
+    "curtosis":0.0
+  },
+  {
+    "variable":"PORCENTAJE DESCUENTO",
+    "n":3239993,
+    "media":0.3919707481,
+    "mediana":0.4,
+    "desviacion":0.1080429725,
+    "varianza":0.0116732839,
+    "minimo":0.0,
+    "maximo":1.0,
+    "asimetria":0.2965887399,
+    "curtosis":2.8482618319
+  },
+  {
+    "variable":"MONTO APLICADO",
+    "n":3239993,
+    "media":10180.5393681406,
+    "mediana":7662.0,
+    "desviacion":14451.4283924604,
+    "varianza":208843782.5824115574,
+    "minimo":15.0,
+    "maximo":226476.0,
+    "asimetria":9.0606124757,
+    "curtosis":108.2427785285
+  },
+  {
+    "variable":"MONTO POR UNIDAD",
+    "n":3239993,
+    "media":10180.5393681406,
+    "mediana":7662.0,
+    "desviacion":14451.4283924604,
+    "varianza":208843782.5824115574,
+    "minimo":15.0,
+    "maximo":226476.0,
+    "asimetria":9.0606124757,
+    "curtosis":108.2427785285
+  },
+  {
+    "variable":"EDAD",
+    "n":3239993,
+    "media":49.5743041787,
+    "mediana":48.6078028747,
+    "desviacion":16.7321628199,
+    "varianza":279.9652726307,
+    "minimo":0.0054757016,
+    "maximo":109.8453114305,
+    "asimetria":0.241881014,
+    "curtosis":-0.7842387582
+  },
+  {
+    "variable":"FRECUENCIA COMPRA",
+    "n":3239993,
+    "media":5.6564298133,
+    "mediana":4.0,
+    "desviacion":5.457468859,
+    "varianza":29.7839663472,
+    "minimo":1.0,
+    "maximo":110.0,
+    "asimetria":3.2551483342,
+    "curtosis":21.5104448122
+  }
+]

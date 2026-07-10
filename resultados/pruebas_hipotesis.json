@@ -1,0 +1,106 @@
+{
+  "hipotesis": [
+    {
+      "nombre": "H0_APP_WEB",
+      "pregunta": "El ticket promedio en APP es mayor que en WEB.",
+      "h0": "Ticket promedio APP <= ticket promedio WEB.",
+      "h1": "Ticket promedio APP > ticket promedio WEB.",
+      "resultados": [
+        {
+          "prueba": "Welch t-test unilateral",
+          "estadistico": -5.364797420579465,
+          "p_value": 0.9999999593858435,
+          "decision": "No se rechaza H0"
+        },
+        {
+          "prueba": "Mann-Whitney unilateral",
+          "estadistico": 1724985725.0,
+          "p_value": 0.3799582009188037,
+          "decision": "No se rechaza H0"
+        }
+      ],
+      "tipo": "hipotesis del enunciado evaluada segun disponibilidad de datos"
+    },
+    {
+      "nombre": "H0_DESCUENTO_UNIDADES",
+      "pregunta": "El porcentaje de descuento afecta significativamente las unidades vendidas.",
+      "h0": "El coeficiente de descuento sobre UNIDADES es igual a 0.",
+      "h1": "El coeficiente de descuento sobre UNIDADES es distinto de 0.",
+      "resultados": [],
+      "tipo": "hipotesis del enunciado evaluada segun variabilidad de datos",
+      "nota": "No evaluable: UNIDADES no presenta variacion suficiente en los datos limpios.",
+      "unidades_unicas": [
+        1.0
+      ]
+    },
+    {
+      "nombre": "H1",
+      "pregunta": "El monto promedio difiere entre canales de compra.",
+      "h0": "MONTO APLICADO no difiere entre canales.",
+      "h1": "Al menos un canal presenta diferencias.",
+      "resultados": [
+        {
+          "prueba": "ANOVA",
+          "estadistico": 150.36316176947395,
+          "p_value": 1.9230113712067684e-97,
+          "decision": "Se rechaza H0"
+        },
+        {
+          "prueba": "Kruskal-Wallis",
+          "estadistico": 5937.899329007541,
+          "p_value": 0.0,
+          "decision": "Se rechaza H0"
+        }
+      ]
+    },
+    {
+      "nombre": "H2",
+      "pregunta": "El porcentaje de descuento se asocia con el monto comprado.",
+      "h0": "No existe asociacion monotona entre descuento y monto.",
+      "h1": "Existe asociacion monotona entre descuento y monto.",
+      "nota": "Se usa MONTO APLICADO porque UNIDADES no presenta variacion en los datos limpios.",
+      "resultados": [
+        {
+          "prueba": "Spearman",
+          "rho": 0.4827382857598647,
+          "p_value": 0.0,
+          "decision": "Se rechaza H0"
+        }
+      ]
+    },
+    {
+      "nombre": "H3",
+      "pregunta": "La edad del cliente se asocia con el monto comprado.",
+      "h0": "No existe asociacion monotona entre edad y monto.",
+      "h1": "Existe asociacion monotona entre edad y monto.",
+      "resultados": [
+        {
+          "prueba": "Spearman",
+          "rho": 0.09917943052339558,
+          "p_value": 0.0,
+          "decision": "Se rechaza H0"
+        }
+      ]
+    },
+    {
+      "nombre": "H4",
+      "pregunta": "El monto promedio difiere segun genero.",
+      "h0": "MONTO APLICADO no difiere segun genero.",
+      "h1": "MONTO APLICADO difiere segun genero.",
+      "resultados": [
+        {
+          "prueba": "Welch t-test",
+          "estadistico": 45.01923978603405,
+          "p_value": 0.0,
+          "decision": "Se rechaza H0"
+        },
+        {
+          "prueba": "Mann-Whitney",
+          "estadistico": 1207448024126.0,
+          "p_value": 0.0,
+          "decision": "Se rechaza H0"
+        }
+      ]
+    }
+  ]
+}

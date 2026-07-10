@@ -1,0 +1,56 @@
+[
+  {
+    "variable":"UNIDADES",
+    "n_muestra":5000,
+    "shapiro_stat":null,
+    "shapiro_p":null,
+    "ks_stat":null,
+    "ks_p":null,
+    "nota":"No evaluable: variable sin variacion."
+  },
+  {
+    "variable":"PORCENTAJE DESCUENTO",
+    "n_muestra":5000,
+    "shapiro_stat":0.8549331638,
+    "shapiro_p":1.123005814e-55,
+    "ks_stat":0.1947538545,
+    "ks_p":1.289321991e-166,
+    "nota":null
+  },
+  {
+    "variable":"MONTO APLICADO",
+    "n_muestra":5000,
+    "shapiro_stat":0.3395127047,
+    "shapiro_p":2.773140477e-86,
+    "ks_stat":0.2775637022,
+    "ks_p":0.0,
+    "nota":null
+  },
+  {
+    "variable":"MONTO POR UNIDAD",
+    "n_muestra":5000,
+    "shapiro_stat":0.3395127047,
+    "shapiro_p":2.773140477e-86,
+    "ks_stat":0.2775637022,
+    "ks_p":0.0,
+    "nota":null
+  },
+  {
+    "variable":"EDAD",
+    "n_muestra":5000,
+    "shapiro_stat":0.9781832154,
+    "shapiro_p":4.877059345e-27,
+    "ks_stat":0.0501468953,
+    "ks_p":0.0,
+    "nota":null
+  },
+  {
+    "variable":"FRECUENCIA COMPRA",
+    "n_muestra":5000,
+    "shapiro_stat":0.7034236464,
+    "shapiro_p":2.909419817e-69,
+    "ks_stat":0.2011830735,
+    "ks_p":7.158241543e-178,
+    "nota":null
+  }
+]

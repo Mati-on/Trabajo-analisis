@@ -1,0 +1,160 @@
+{
+  "filas_evaluadas": 3239993,
+  "total_faltantes": 0,
+  "nota_mcar": "Se reportan pruebas simples de asociacion entre indicadores de ausencia y variables observadas. No corresponde a Little MCAR completo, pero entrega evidencia objetiva para justificar imputaciones.",
+  "columnas": [
+    {
+      "columna": "FECHA",
+      "faltantes": 0,
+      "porcentaje": 0.0,
+      "tratamiento": {
+        "accion": "sin imputacion",
+        "metodo": "no aplica"
+      },
+      "pruebas_patron_faltantes": []
+    },
+    {
+      "columna": "CANAL",
+      "faltantes": 0,
+      "porcentaje": 0.0,
+      "tratamiento": {
+        "accion": "sin imputacion",
+        "metodo": "no aplica"
+      },
+      "pruebas_patron_faltantes": []
+    },
+    {
+      "columna": "SKU",
+      "faltantes": 0,
+      "porcentaje": 0.0,
+      "tratamiento": {
+        "accion": "sin imputacion",
+        "metodo": "no aplica"
+      },
+      "pruebas_patron_faltantes": []
+    },
+    {
+      "columna": "PRODUCTO",
+      "faltantes": 0,
+      "porcentaje": 0.0,
+      "tratamiento": {
+        "accion": "sin imputacion",
+        "metodo": "no aplica"
+      },
+      "pruebas_patron_faltantes": []
+    },
+    {
+      "columna": "UNIDADES",
+      "faltantes": 0,
+      "porcentaje": 0.0,
+      "tratamiento": {
+        "accion": "sin imputacion",
+        "metodo": "no aplica"
+      },
+      "pruebas_patron_faltantes": []
+    },
+    {
+      "columna": "PORCENTAJE DESCUENTO",
+      "faltantes": 0,
+      "porcentaje": 0.0,
+      "tratamiento": {
+        "accion": "imputacion",
+        "metodo": "mediana",
+        "justificacion": "La mediana es robusta frente a descuentos extremos."
+      },
+      "pruebas_patron_faltantes": []
+    },
+    {
+      "columna": "MONTO APLICADO",
+      "faltantes": 0,
+      "porcentaje": 0.0,
+      "tratamiento": {
+        "accion": "sin imputacion",
+        "metodo": "no aplica"
+      },
+      "pruebas_patron_faltantes": []
+    },
+    {
+      "columna": "BOLETA",
+      "faltantes": 0,
+      "porcentaje": 0.0,
+      "tratamiento": {
+        "accion": "sin imputacion",
+        "metodo": "no aplica"
+      },
+      "pruebas_patron_faltantes": []
+    },
+    {
+      "columna": "LOCAL",
+      "faltantes": 0,
+      "porcentaje": 0.0,
+      "tratamiento": {
+        "accion": "sin imputacion",
+        "metodo": "no aplica"
+      },
+      "pruebas_patron_faltantes": []
+    },
+    {
+      "columna": "CODIGO CLIENTE",
+      "faltantes": 0,
+      "porcentaje": 0.0,
+      "tratamiento": {
+        "accion": "sin imputacion",
+        "metodo": "no aplica"
+      },
+      "pruebas_patron_faltantes": []
+    },
+    {
+      "columna": "RUN CLIENTE",
+      "faltantes": 0,
+      "porcentaje": 0.0,
+      "tratamiento": {
+        "accion": "sin imputacion",
+        "metodo": "no aplica"
+      },
+      "pruebas_patron_faltantes": []
+    },
+    {
+      "columna": "NOMBRES",
+      "faltantes": 0,
+      "porcentaje": 0.0,
+      "tratamiento": {
+        "accion": "sin imputacion",
+        "metodo": "no aplica"
+      },
+      "pruebas_patron_faltantes": []
+    },
+    {
+      "columna": "APELLIDOS",
+      "faltantes": 0,
+      "porcentaje": 0.0,
+      "tratamiento": {
+        "accion": "sin imputacion",
+        "metodo": "no aplica"
+      },
+      "pruebas_patron_faltantes": []
+    },
+    {
+      "columna": "FECHA NACIMIENTO",
+      "faltantes": 0,
+      "porcentaje": 0.0,
+      "tratamiento": {
+        "accion": "imputacion",
+        "metodo": "fecha fija 2000-01-01",
+        "justificacion": "Respaldo trazable para permitir calcular EDAD cuando la fecha viene ausente o invalida.",
+        "limitacion": "Puede sesgar la edad; se declara como imputacion simple y debe revisarse si aparecen faltantes relevantes."
+      },
+      "pruebas_patron_faltantes": []
+    },
+    {
+      "columna": "GENERO",
+      "faltantes": 0,
+      "porcentaje": 0.0,
+      "tratamiento": {
+        "accion": "sin imputacion",
+        "metodo": "no aplica"
+      },
+      "pruebas_patron_faltantes": []
+    }
+  ]
+}

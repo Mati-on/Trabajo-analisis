@@ -1,0 +1,29 @@
+{
+  "modelo": "HistGradientBoostingRegressor",
+  "objetivo": "MONTO APLICADO",
+  "transformacion_objetivo": "log1p",
+  "muestra_maxima": 500000,
+  "filas_usadas": 500000,
+  "train": 350000,
+  "test": 150000,
+  "metricas": {
+    "MAE": 1683.5678032122767,
+    "RMSE": 3651.6366765904963,
+    "R2": 0.9367547195172282
+  },
+  "predictores": [
+    "UNIDADES",
+    "PORCENTAJE DESCUENTO",
+    "EDAD",
+    "FRECUENCIA COMPRA",
+    "SKU",
+    "GENERO",
+    "LOCAL",
+    "FECHA_MES",
+    "FECHA_DIA_SEMANA",
+    "FECHA_HORA",
+    "CANAL_CCT",
+    "CANAL_POS",
+    "CANAL_WEB"
+  ]
+}

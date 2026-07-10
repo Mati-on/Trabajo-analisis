@@ -1,0 +1,69 @@
+{
+  "pruebas": [
+    {
+      "prueba": "Chi-cuadrado",
+      "variables": "CANAL vs LOCAL",
+      "chi2": 3239993.0,
+      "grados_libertad": 2373,
+      "p_value": 0.0
+    },
+    {
+      "prueba": "Spearman",
+      "variables": "UNIDADES vs MONTO APLICADO",
+      "rho": null,
+      "p_value": null,
+      "nota": "No evaluable: una o ambas variables no tienen variacion suficiente."
+    },
+    {
+      "prueba": "Spearman",
+      "variables": "UNIDADES vs PORCENTAJE DESCUENTO",
+      "rho": null,
+      "p_value": null,
+      "nota": "No evaluable: una o ambas variables no tienen variacion suficiente."
+    },
+    {
+      "prueba": "Spearman",
+      "variables": "MONTO APLICADO vs PORCENTAJE DESCUENTO",
+      "rho": 0.48273828575986477,
+      "p_value": 0.0,
+      "nota": null
+    },
+    {
+      "prueba": "ANOVA",
+      "variables": "MONTO APLICADO por CANAL",
+      "estadistico": 150.36316176947395,
+      "p_value": 1.9230113712067684e-97,
+      "nota": null
+    },
+    {
+      "prueba": "Kruskal-Wallis",
+      "variables": "MONTO APLICADO por CANAL",
+      "estadistico": 5937.899329007541,
+      "p_value": 0.0,
+      "nota": null
+    },
+    {
+      "prueba": "ANOVA",
+      "variables": "MONTO APLICADO por LOCAL",
+      "estadistico": 55.12462432949692,
+      "p_value": 0.0,
+      "nota": "Evaluado sobre los 200 locales con mas registros para controlar costo computacional."
+    },
+    {
+      "prueba": "Kruskal-Wallis",
+      "variables": "MONTO APLICADO por LOCAL",
+      "estadistico": 24316.572095334574,
+      "p_value": 0.0,
+      "nota": "Evaluado sobre los 200 locales con mas registros para controlar costo computacional."
+    },
+    {
+      "prueba": "Chi-cuadrado",
+      "variables": "CANAL vs GENERO",
+      "chi2": 11791.595922773746,
+      "grados_libertad": 3,
+      "p_value": 0.0,
+      "nota": "Prueba complementaria no exigida directamente por la rubrica."
+    }
+  ],
+  "nota": null
+}

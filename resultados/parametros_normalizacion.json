@@ -1,0 +1,38 @@
+{
+  "MONTO APLICADO": {
+    "media": 10180.53936814061,
+    "desviacion": 14451.42616229674,
+    "columna_generada": "MONTO APLICADO_z",
+    "formula": "(valor - media) / desviacion"
+  },
+  "UNIDADES": {
+    "media": 1.0,
+    "desviacion": 0.0,
+    "columna_generada": "UNIDADES_z",
+    "formula": "(valor - media) / desviacion"
+  },
+  "PORCENTAJE DESCUENTO": {
+    "media": 0.3919707480849496,
+    "desviacion": 0.10804295581008425,
+    "columna_generada": "PORCENTAJE DESCUENTO_z",
+    "formula": "(valor - media) / desviacion"
+  },
+  "MONTO POR UNIDAD": {
+    "media": 10180.53936814061,
+    "desviacion": 14451.42616229674,
+    "columna_generada": "MONTO POR UNIDAD_z",
+    "formula": "(valor - media) / desviacion"
+  },
+  "EDAD": {
+    "media": 49.574304178688884,
+    "desviacion": 16.732160237743564,
+    "columna_generada": "EDAD_z",
+    "formula": "(valor - media) / desviacion"
+  },
+  "FRECUENCIA COMPRA": {
+    "media": 5.656429813274288,
+    "desviacion": 5.457468016815666,
+    "columna_generada": "FRECUENCIA COMPRA_z",
+    "formula": "(valor - media) / desviacion"
+  }
+}
