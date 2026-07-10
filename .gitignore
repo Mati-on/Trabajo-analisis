@@ -1,0 +1,21 @@
+# Entorno local
+.venv/
+__pycache__/
+*.py[cod]
+
+# Archivos temporales y empaquetados
+*.zip
+logs_prueba.txt
+
+# Dataset real y salidas grandes generadas
+data/ventas_completas.csv
+data/ventas_validas*.csv
+data/ventas_limpias*.csv
+data/ventas_validas*.parquet
+data/ventas_limpias*.parquet
+
+# Mantener carpetas de salida, pero no versionar resultados pesados
+plots/*
+!plots/.gitkeep
+resultados/*
+!resultados/.gitkeep
